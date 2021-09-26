@@ -1,0 +1,11 @@
+p {
+            color: red;
+            text-align: center;
+         }
+h2 {
+   color: green;
+}
+
+h2,p{
+    background-color: #b0d4de;
+}

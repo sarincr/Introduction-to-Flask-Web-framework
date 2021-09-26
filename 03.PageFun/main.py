@@ -9,5 +9,12 @@ def start():
     return "Hello New Page"
 
 
+@test.route("/second")
+@test.route("/home")
+def second_page():
+   return "Hello second Page"
+
+
+
 if __name__ == '__main__':
     test.run()
